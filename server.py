@@ -1,17 +1,12 @@
 import numpy as np
 from flask import Flask, request, jsonify
-import pickle
-
+import tensorflow
 import keras
 import tensorflow_addons as tfa
-import tensorflow as tf
-from keras.preprocessing.text import Tokenizer
-import importlib
 from keras_preprocessing.text import tokenizer_from_json
 import json
 from keras_preprocessing.sequence import pad_sequences
-from transformers import BertTokenizer, TFBertModel, BertConfig
-from tqdm import tqdm
+
 
 with open("tokenizer.json") as f:
     data = json.load(f)

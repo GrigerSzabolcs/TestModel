@@ -17,7 +17,7 @@ app = Flask(__name__)
 model = keras.models.load_model("CNN_model.h5")
 
 #bert_tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-#model = keras.models.load_model("models/BERT_model.h5", custom_objects={"TFBertModel": TFBertModel})
+##model = keras.models.load_model("models/BERT_model.h5", custom_objects={"TFBertModel": TFBertModel})
 
 
 

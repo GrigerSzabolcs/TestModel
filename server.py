@@ -1,6 +1,5 @@
 import numpy as np
 from flask import Flask, request, jsonify
-import tensorflow
 import keras
 import tensorflow_addons as tfa
 from keras_preprocessing.text import tokenizer_from_json

@@ -4,4 +4,3 @@ keras==2.10.0
 Keras_Preprocessing==1.1.2
 numpy==1.25.0
 tensorflow_addons==0.21.0
-tqdm==4.65.0
